@@ -1,0 +1,8 @@
+{
+  "name": "jenkins-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node -e \"require('fs').cpSync('src','dist',{recursive:true})\"",
+    "test": "node --test"
+  }
+}
